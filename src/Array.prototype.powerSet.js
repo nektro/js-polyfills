@@ -1,3 +1,5 @@
+/** Returns the [power set](https://en.wikipedia.org/wiki/Power_set) of this Array
+ */
 Array.prototype.powerSet = function() {
     var res = new Array();
     var max = Math.pow(2, this.length);
