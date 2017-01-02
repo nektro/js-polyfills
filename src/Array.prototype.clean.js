@@ -1,5 +1,4 @@
-/**
- * Remove all occurrences of {deleteValue} from the Array {this}
+/** Remove all occurrences of {deleteValue} from the Array {this}
  */
 Array.prototype.clean = function(deleteValue) {
     var i = 0;
