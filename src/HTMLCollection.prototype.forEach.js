@@ -1,3 +1,5 @@
+/** A Polyfill for {Array.prototype.forEach} for use on {HTMLCollection}
+ */
 HTMLCollection.prototype.forEach = function(cb) {
     if (!(cb instanceof Function)) {
         return;
