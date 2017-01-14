@@ -1,6 +1,6 @@
 /** A Polyfill for {Array.prototype.indexOf} for use on {HTMLCollection}
  */
-HTMLCollection.prototype.forEach = function(el) {
+HTMLCollection.prototype.indexOf = function(el) {
     if (!(cb instanceof Element)) {
         return;
     }
