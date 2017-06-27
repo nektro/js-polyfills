@@ -1,0 +1,8 @@
+{
+  "name": "js-polyfills",
+  "version": "0.1",
+  "description": "Some polyfills for common Objects that don't yet exist",
+  "repository": "https://github.com/Nektro/js-polyfills.git",
+  "author": "Nektro <nektromc@gmail.com>",
+  "license": "MIT"
+}
